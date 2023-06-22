@@ -1,0 +1,12 @@
+org/example/Main.class
+com/adeglobal/productservice/dto/ProductRequest$ProductRequestBuilder.class
+com/adeglobal/productservice/ProductServiceApplication.class
+com/adeglobal/productservice/service/ProductService.class
+com/adeglobal/productservice/model/Product.class
+com/adeglobal/productservice/repository/ProductRepository.class
+com/adeglobal/productservice/dto/ProductRequest.class
+com/adeglobal/productservice/dto/ProductResponse$ProductResponseBuilder.class
+com/adeglobal/productservice/model/Product$ProductBuilder.class
+com/adeglobal/productservice/dto/ProductResponse.class
+com/adeglobal/productservice/config/MongoDBConfig.class
+com/adeglobal/productservice/controller/ProductController.class
