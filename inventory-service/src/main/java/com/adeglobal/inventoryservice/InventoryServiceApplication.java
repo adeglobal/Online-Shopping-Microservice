@@ -20,6 +20,10 @@ public class InventoryServiceApplication {
 	@Bean
 	public CommandLineRunner loadData(InventoryRepository inventoryRepository){
 		return args -> {
+
+
+//		if(inventoryRepository.findAll().size() < 0){
+
 			Inventory inventory = new Inventory();
 			inventory.setSkuCode("iphone_13");
 			inventory.setQuantity(100);
@@ -30,6 +34,8 @@ public class InventoryServiceApplication {
 
 			inventoryRepository.save(inventory);
 			inventoryRepository.save(inventory1);
+
+//		}
 
 		};
 
